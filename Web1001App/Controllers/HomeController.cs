@@ -23,6 +23,10 @@ public class HomeController : Controller
         return View();
     }
 
+    public string Intro(){
+        return "This is the Intro method";
+    }
+
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/majidpawar/Web/WEB-1001/Web1001App/Web1001App.csproj": {}
+    "/Users/majidpawar/Web/Web-1001/Web1001App/Web1001App.csproj": {}
   },
   "projects": {
-    "/Users/majidpawar/Web/WEB-1001/Web1001App/Web1001App.csproj": {
+    "/Users/majidpawar/Web/Web-1001/Web1001App/Web1001App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/majidpawar/Web/WEB-1001/Web1001App/Web1001App.csproj",
+        "projectUniqueName": "/Users/majidpawar/Web/Web-1001/Web1001App/Web1001App.csproj",
         "projectName": "Web1001App",
-        "projectPath": "/Users/majidpawar/Web/WEB-1001/Web1001App/Web1001App.csproj",
+        "projectPath": "/Users/majidpawar/Web/Web-1001/Web1001App/Web1001App.csproj",
         "packagesPath": "/Users/majidpawar/.nuget/packages/",
-        "outputPath": "/Users/majidpawar/Web/WEB-1001/Web1001App/obj/",
+        "outputPath": "/Users/majidpawar/Web/Web-1001/Web1001App/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/majidpawar/.nuget/NuGet/NuGet.Config"
