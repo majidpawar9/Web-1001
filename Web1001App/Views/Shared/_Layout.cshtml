@@ -22,6 +22,8 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
+
+                        <!-- Added the Intro page navigation link to NavBar  -->
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Intro">Intro</a>
                         </li>
@@ -30,7 +32,12 @@
             </div>
         </nav>
     </header>
-    <section class="text-center">This is a new Section...</section>
+
+    <!-- New Section indicated -->
+    <section class="text-center">
+        @RenderSection("OptionalSection", required: false)
+    </section>
+    
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()

@@ -1,4 +1,31 @@
-﻿
+﻿@{
+    ViewData["Title"] = "Intro";
+}
+
+<!-- This is the title of intro page -->
+<h1 class="text-center">@ViewData["Title"]</h1>
+
 <h3>Majid Pawar</h3>
 
-<p>This is in the Intro method.</p>
+@section OptionalSection {
+    <p>This is the optional content that will appear only on this page.</p>
+}
+
+<!-- This the number forn with two inputs and a submit button -->
+<title>Number Form</title>
+<body>
+  <div class="container">
+    <h1>Number Form</h1>
+    <form>
+      <label for="number1">Number 1:</label>
+      <input type="number" id="number1" name="number1">
+      <br>
+      <label for="number2">Number 2:</label>
+      <input type="number" id="number2" name="number2">
+      <br>
+      <input type="submit" id="submitResult">
+    </form>
+    <h2>Result:</h2>
+    <div id="output"></div>
+  </div>
+</body>
