@@ -23,8 +23,8 @@ public class HomeController : Controller
         return View();
     }
 
-    public string Intro(){
-        return "This is the Intro method";
+    public IActionResult Intro(){
+        return View();
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
