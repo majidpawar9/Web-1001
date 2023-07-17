@@ -5,13 +5,20 @@
 <!-- This is the title of intro page -->
 <h1 class="text-center">@ViewData["Title"]</h1>
 
+
 <h3>Majid Pawar</h3>
 
-@section OptionalSection {
-    <p>This is the optional content that will appear only on this page.</p>
+<!--  This is the paragraph which will be displayed using section -->
+@section ParagraphSection {
+    <p>This is the section and it will appear only on this page.</br>
+      Added title as Intro for this page using h1 tag .</br>
+      Made my name display using an h3 tag.</br>
+      Used form tag to make form and used number as input tag type.</br>
+      Assigned a button to it too and Output. 
+    </p>
 }
 
-<!-- This the number forn with two inputs and a submit button -->
+<!-- This the number form with two inputs and a submit button -->
 <title>Number Form</title>
 <body>
   <div class="container">
@@ -25,7 +32,7 @@
       <br>
       <input type="submit" id="submitResult">
     </form>
-    <h2>Result:</h2>
+    <h2>Output :</h2>
     <div id="output"></div>
   </div>
 </body>

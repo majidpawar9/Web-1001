@@ -32,17 +32,17 @@
             </div>
         </nav>
     </header>
-
-    <!-- New Section indicated -->
-    <section class="text-center">
-        @RenderSection("OptionalSection", required: false)
-    </section>
     
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
+
+    <!-- New Section -->
+    <section class="text-center">
+        @RenderSection("ParagraphSection", required: false)
+    </section>
 
     <footer class="border-top footer text-muted">
         <div class="container">
